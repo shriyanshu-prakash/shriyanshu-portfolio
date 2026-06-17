@@ -51,6 +51,8 @@ function Navbar() {
           <a href="#experience">Experience</a>
 
           <a href="#certifications">Certifications</a>
+
+          <a href="#contact">Contact</a>
         </div>
       </div>
     </nav>
