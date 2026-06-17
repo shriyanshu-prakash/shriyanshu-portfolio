@@ -28,6 +28,15 @@ function Projects() {
         "Created an Android application that converts speech into transcripts, allows note management, and improves accessibility for users.",
       link: "https://github.com/shriyanshu-prakash/ListenLess",
     },
+
+    {
+      title: "Shriyanshu Portfolio",
+      tech: "React • Vite • JavaScript • CSS • Vercel",
+      description:
+        "Designed and deployed a personal portfolio website showcasing projects, experience, certifications, skills, and professional profiles with a modern responsive interface.",
+      link: "https://shriyanshu-portfolio.vercel.app/",
+      github: "https://github.com/shriyanshu-prakash/shriyanshu-portfolio",
+    },
   ];
 
   return (
