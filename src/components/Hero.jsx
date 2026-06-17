@@ -3,13 +3,14 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Hero() {
   return (
     <section
+      id="top"
       style={{
         minHeight: "100vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        padding: "20px",
+        padding: "80px 20px 20px",
         position: "relative",
         overflow: "hidden",
       }}
@@ -25,7 +26,7 @@ function Hero() {
           filter: "blur(60px)",
           zIndex: 0,
         }}
-      ></div>
+      />
 
       {/* Content */}
       <div
@@ -34,7 +35,7 @@ function Hero() {
           zIndex: 1,
         }}
       >
-        {/* Badge */}
+        {/* Availability Badge */}
         <div
           style={{
             display: "inline-block",
@@ -141,7 +142,6 @@ function Hero() {
             justifyContent: "center",
             gap: "15px",
             flexWrap: "wrap",
-            marginBottom: "20px",
           }}
         >
           <a
@@ -164,28 +164,12 @@ function Hero() {
             </button>
           </a>
 
-          <button>Resume</button>
-        </div>
-
-        {/* Navigation Buttons */}
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            gap: "15px",
-            flexWrap: "wrap",
-          }}
-        >
-          <a href="#about">
-            <button>About</button>
-          </a>
-
-          <a href="#skills">
-            <button>Skills</button>
-          </a>
-
-          <a href="#projects">
-            <button>Projects</button>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>Resume</button>
           </a>
         </div>
 
