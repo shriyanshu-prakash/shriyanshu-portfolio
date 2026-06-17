@@ -119,7 +119,7 @@ function Hero() {
           }}
         >
           <div>
-            <h3 style={{ fontSize: "1.8rem" }}>9.3</h3>
+            <h3 style={{ fontSize: "1.8rem" }}>9.07</h3>
             <p style={{ color: "#9ca3af" }}>CGPA</p>
           </div>
 
@@ -182,6 +182,10 @@ function Hero() {
 
           <a href="#skills">
             <button>Skills</button>
+          </a>
+
+          <a href="#projects">
+            <button>Projects</button>
           </a>
         </div>
 
