@@ -17,7 +17,10 @@ body {
 
 .gradient-text {
   background: linear-gradient(90deg, #a855f7, #22d3ee);
+
+  background-clip: text;
   -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
 }
 
@@ -32,4 +35,12 @@ button {
 
 button:hover {
   transform: translateY(-2px);
+}
+
+section {
+  position: relative;
+}
+
+h2 {
+  font-weight: 700;
 }
