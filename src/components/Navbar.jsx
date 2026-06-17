@@ -47,6 +47,10 @@ function Navbar() {
           <a href="#skills">Skills</a>
 
           <a href="#projects">Projects</a>
+
+          <a href="#experience">Experience</a>
+
+          <a href="#certifications">Certifications</a>
         </div>
       </div>
     </nav>
