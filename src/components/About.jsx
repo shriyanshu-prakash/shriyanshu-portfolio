@@ -1,6 +1,7 @@
 function About() {
   return (
     <section
+      id="about"
       style={{
         padding: "100px 20px",
         maxWidth: "1100px",
@@ -27,7 +28,8 @@ function About() {
           fontSize: "1rem",
         }}
       >
-        A brief introduction about my academic journey, interests, and experience.
+        A brief introduction about my academic journey, interests, and
+        experience.
       </p>
 
       {/* Content */}
@@ -76,8 +78,11 @@ function About() {
               color: "#d1d5db",
             }}
           >
-            I'm <span style={{ color: "#22d3ee" }}>Shriyanshu Prakash</span>, a
-            Computer Science student specializing in{" "}
+            I'm{" "}
+            <span style={{ color: "#22d3ee" }}>
+              Shriyanshu Prakash
+            </span>
+            , a Computer Science student specializing in{" "}
             <span style={{ color: "#22d3ee" }}>
               Artificial Intelligence and Machine Learning
             </span>{" "}

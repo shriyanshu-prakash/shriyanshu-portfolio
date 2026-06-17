@@ -34,7 +34,7 @@ function Hero() {
           zIndex: 1,
         }}
       >
-        {/* Internship Badge */}
+        {/* Badge */}
         <div
           style={{
             display: "inline-block",
@@ -134,13 +134,14 @@ function Hero() {
           </div>
         </div>
 
-        {/* Buttons */}
+        {/* External Links */}
         <div
           style={{
             display: "flex",
             justifyContent: "center",
             gap: "15px",
             flexWrap: "wrap",
+            marginBottom: "20px",
           }}
         >
           <a
@@ -165,6 +166,35 @@ function Hero() {
 
           <button>Resume</button>
         </div>
+
+        {/* Navigation Buttons */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "15px",
+            flexWrap: "wrap",
+          }}
+        >
+          <a href="#about">
+            <button>About</button>
+          </a>
+
+          <a href="#skills">
+            <button>Skills</button>
+          </a>
+        </div>
+
+        {/* Scroll Indicator */}
+        <p
+          style={{
+            marginTop: "50px",
+            color: "#9ca3af",
+            fontSize: "0.9rem",
+          }}
+        >
+          ↓ Scroll to Explore
+        </p>
       </div>
     </section>
   );
